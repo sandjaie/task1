@@ -31,7 +31,3 @@ echo "Copy hosts file"
 cp /tmp/hosts /etc/hosts
 echo "Docker Status"
 systemctl status docker.service | grep Active
-
-#Calling the script which starts the container
-$DOCKER_SETUP="/home/vagrant/docker_script.sh"
-"$DOCKER_SETUP"
