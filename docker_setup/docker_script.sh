@@ -7,7 +7,7 @@ echo "List of the images"
 docker images
 #Starting the container
 echo "Running a container from the build image"
-docker run --name app -p 80:80 -d nginx-xenial/v1
+docker run --name app -p 80:80 -d -t -i nginx-xenial/v1 /bin/bash
 echo "container status"
 docker ps -a
 
