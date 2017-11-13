@@ -26,3 +26,26 @@ Install:
 `sudo apt-get install dkms`
 #### Recompile Virtualbox if needed:
 `sudo /sbin/vboxconfig`
+
+### How to run:
+Clone the repo to your machine `git clone https://github.com/sandjaie/task1.git` and run `vagrant up`
+
+#### File Structure:
+```|-- README.md
+|-- Vagrantfile
+|-- box_setup
+|   `-- initial_setup.sh
+|-- docker_setup
+|   |-- Dockerfile
+|   |-- docker_files
+|   |   |-- 1.html
+|   |   |-- 2.html
+|   |   |-- 3.html
+|   |   |-- myfirstpage.com
+|   |   |-- mysecondpage.com
+|   |   |-- mythirdpage.com
+|   |   `-- nginx.conf
+|   `-- docker_script.sh
+`-- files
+    `-- hosts```
+
