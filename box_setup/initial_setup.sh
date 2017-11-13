@@ -33,5 +33,5 @@ echo "Docker Status"
 systemctl status docker.service | grep Active
 
 #Calling the script which starts the container
-$DOCKER_SETUP="./docker_setup/docker_script.sh"
+$DOCKER_SETUP="docker_script.sh"
 "$DOCKER_SETUP"

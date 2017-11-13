@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
 	config.vm.box = "centos/7"
 	config.vm.provider "virtualbox" do |vb|
-        vb.name = "centos03"
+        vb.name = "centos04"
         vb.customize ["modifyvm", :id, "--memory", "2048"]
     end
     config.vm.provision "file", source: "./docker_setup/Dockerfile", destination: "/home/vagrant/Dockerfile"
