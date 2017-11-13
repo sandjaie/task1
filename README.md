@@ -17,7 +17,7 @@ Install:
 `echo "deb http://download.virtualbox.org/virtualbox/debian xenial contrib" | sudo tee /etc/apt/sources.list.d/virtual-box.list`
 
 #### Add the apt-key:
-`wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -`
+`wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -`;
 `wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -`
 
 #### Install VirtualBox: 
