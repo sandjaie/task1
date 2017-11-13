@@ -10,3 +10,6 @@ echo "Running a container from the build image"
 docker run --name app -p 80:80 -d nginx-xenial/v1
 echo "container status"
 docker ps -a
+
+#To trigger docker compose, comment the above section
+#docker-compose up

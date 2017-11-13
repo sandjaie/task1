@@ -29,14 +29,19 @@ Install:
 
 ### How to run:
 Clone the repo to your machine `git clone https://github.com/sandjaie/task1.git` and run `vagrant up`
+ - Which will install a VM in virtualbox(centos) and install docker and docker-compose in the VM
+ - And triggers the docker_script.sh file which deploys the container with port 80 exposed
+ - To deploy the container we can either use docker_script or docker-compose (needs an edit in the script)
+
 
 #### File Structure:
-```|-- README.md
+```||-- README.md
 |-- Vagrantfile
 |-- box_setup
 |   `-- initial_setup.sh
 |-- docker_setup
 |   |-- Dockerfile
+|   |-- docker-compose.yml
 |   |-- docker_files
 |   |   |-- 1.html
 |   |   |-- 2.html
@@ -47,5 +52,5 @@ Clone the repo to your machine `git clone https://github.com/sandjaie/task1.git`
 |   |   `-- nginx.conf
 |   `-- docker_script.sh
 `-- files
-    `-- hosts`
+    `-- hosts
 
