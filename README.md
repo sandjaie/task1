@@ -31,7 +31,7 @@ Install:
 Clone the repo to your machine `git clone https://github.com/sandjaie/task1.git` and run `vagrant up`
 
 #### File Structure:
-|-- README.md
+```|-- README.md
 |-- Vagrantfile
 |-- box_setup
 |   `-- initial_setup.sh
@@ -47,5 +47,5 @@ Clone the repo to your machine `git clone https://github.com/sandjaie/task1.git`
 |   |   `-- nginx.conf
 |   `-- docker_script.sh
 `-- files
-    `-- hosts
+    `-- hosts```
 
