@@ -3,7 +3,7 @@
 if [ $?  == 0 ]
 then
   echo "docker is installed"
- else
+else
   #Download the docker script
   echo "Installing Docker on the machine"
   yum install wget -y >> /dev/null
