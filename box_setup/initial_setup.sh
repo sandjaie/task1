@@ -27,6 +27,8 @@ then
   yum install net-tools -y >> /dev/null
 fi
 
+echo "Copy hosts file"
+cp /tmp/hosts /etc /hosts
 echo "Docker Status"
 systemctl status docker.service | grep Active
 
