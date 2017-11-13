@@ -47,5 +47,5 @@ Clone the repo to your machine `git clone https://github.com/sandjaie/task1.git`
 |   |   `-- nginx.conf
 |   `-- docker_script.sh
 `-- files
-    `-- hosts```
+    `-- hosts`
 
