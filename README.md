@@ -28,7 +28,7 @@ Install:
 `sudo /sbin/vboxconfig`
 
 ### How to run:
-Clone the repo to your machine `git clone https://github.com/sandjaie/task1.git` and run `vagrant up`
+Clone the repo to your machine `git clone https://github.com/sandjaie/vagthedoc.git` and run `vagrant up`
  - Which will install a VM in virtualbox(centos) and install docker and docker-compose in the VM
  - And triggers the docker_script.sh file which deploys the container with port 80 exposed
  - To deploy the container we can either use docker_script or docker-compose (needs an edit in the script)
