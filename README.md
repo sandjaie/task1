@@ -1,4 +1,4 @@
-# vagthedoc
+### Sample project using vagrant, virtualbox and docker
 ## Prerequisites on a Ubuntu: 
 
 ### Install Ruby (>= 2.2) 
